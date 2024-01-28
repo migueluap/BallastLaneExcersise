@@ -1,8 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+	<ItemGroup>
+		<ProjectReference Include="..\BallastLane.Application\BallastLane.Application.csproj" />
+		<ProjectReference Include="..\BallastLane.Domain\BallastLane.Domain.csproj" />
+		<ProjectReference Include="..\BallastLane.Infra.CrossCutting.Bus\BallastLane.Infra.CrossCutting.Bus.csproj" />
+		<ProjectReference Include="..\BallastLane.Infra.CrossCutting.Identity\BallastLane.Infra.CrossCutting.Identity.csproj" />
+		<ProjectReference Include="..\BallastLane.Infra.Data\BallastLane.Infra.Data.csproj" />
+	</ItemGroup>
+	
 </Project>
