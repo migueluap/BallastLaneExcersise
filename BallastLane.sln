@@ -17,25 +17,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{894BD2A2-17A9-428F-A081-CE6FD79DA740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.CrossCutting.Common", "src\BallastLane.CrossCutting.Common\BallastLane.CrossCutting.Common.csproj", "{A54E9B1B-059B-4B1F-8647-F674F6008F4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.CrossCutting.Common", "src\BallastLane.CrossCutting.Common\BallastLane.CrossCutting.Common.csproj", "{A54E9B1B-059B-4B1F-8647-F674F6008F4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Infra.CrossCutting.Bus", "src\BallastLane.Infra.CrossCutting.Bus\BallastLane.Infra.CrossCutting.Bus.csproj", "{FA3C7CA4-9418-4B27-A16C-BCD0CB102BAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.Infra.CrossCutting.Bus", "src\BallastLane.Infra.CrossCutting.Bus\BallastLane.Infra.CrossCutting.Bus.csproj", "{FA3C7CA4-9418-4B27-A16C-BCD0CB102BAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Infra.CrossCutting.Identity", "src\BallastLane.Infra.CrossCutting.Identity\BallastLane.Infra.CrossCutting.Identity.csproj", "{3F6017E4-36FF-49D8-91A8-C4E31E23D830}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.Infra.CrossCutting.Identity", "src\BallastLane.Infra.CrossCutting.Identity\BallastLane.Infra.CrossCutting.Identity.csproj", "{3F6017E4-36FF-49D8-91A8-C4E31E23D830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Infra.CrossCutting.IoC", "src\BallastLane.Infra.CrossCutting.IoC\BallastLane.Infra.CrossCutting.IoC.csproj", "{2C56EFC8-A0AF-4AC2-A89F-BF1F1FAA3AA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.Infra.CrossCutting.IoC", "src\BallastLane.Infra.CrossCutting.IoC\BallastLane.Infra.CrossCutting.IoC.csproj", "{2C56EFC8-A0AF-4AC2-A89F-BF1F1FAA3AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Infra.Data", "src\BallastLane.Infra.Data\BallastLane.Infra.Data.csproj", "{E527F6CE-C1E0-4C92-A049-0DC3113B6C36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.Infra.Data", "src\BallastLane.Infra.Data\BallastLane.Infra.Data.csproj", "{E527F6CE-C1E0-4C92-A049-0DC3113B6C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Domain.Core", "src\BallastLane.Domain.Core\BallastLane.Domain.Core.csproj", "{7D55DD3C-062B-4B64-AB22-4F56571BF332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.Domain.Core", "src\BallastLane.Domain.Core\BallastLane.Domain.Core.csproj", "{7D55DD3C-062B-4B64-AB22-4F56571BF332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Application", "src\BallastLane.Application\BallastLane.Application.csproj", "{F2304CFB-E3F8-4166-8864-4A18BE45DCB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.Application", "src\BallastLane.Application\BallastLane.Application.csproj", "{F2304CFB-E3F8-4166-8864-4A18BE45DCB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.UI.Web", "src\BallastLane.UI.Web\BallastLane.UI.Web.csproj", "{BA82F33A-B4AB-4D2F-A915-9FECE749D36C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.UI.Web", "src\BallastLane.UI.Web\BallastLane.UI.Web.csproj", "{BA82F33A-B4AB-4D2F-A915-9FECE749D36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Services.Api", "src\BallastLane.Services.Api\BallastLane.Services.Api.csproj", "{B0575320-8341-4021-882E-9618C2579FFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.Services.Api", "src\BallastLane.Services.Api\BallastLane.Services.Api.csproj", "{B0575320-8341-4021-882E-9618C2579FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Domain", "src\BallastLane.Domain\BallastLane.Domain.csproj", "{0AE33477-74CC-4EAD-A507-D0731B8DA86E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallastLane.Domain", "src\BallastLane.Domain\BallastLane.Domain.csproj", "{0AE33477-74CC-4EAD-A507-D0731B8DA86E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9099BF4-CE87-4E9D-B1E0-2615EE91C2E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BED78D76-7511-4177-8D8F-EEB6764E4040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{6BD5F154-04F0-48D9-B3E3-067825654715}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{D82AFCCF-E20B-48E3-9C64-C7F9524CDEA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{BB61EB60-929F-48E3-BB83-E40FB2004AF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{127AF97B-C639-4E34-8078-2990EF6B7CDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{82AB905A-7E57-4759-BF5B-6E1580DE2639}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{4182DD5D-458C-41F8-A1BC-2FB05D20D08D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallastLane.Domain.Test", "tests\BallastLane.Domain.Test\BallastLane.Domain.Test.csproj", "{8F8CB3D5-3D12-4B5A-A902-2EFF9FD67CC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,11 +101,20 @@ Global
 		{0AE33477-74CC-4EAD-A507-D0731B8DA86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AE33477-74CC-4EAD-A507-D0731B8DA86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AE33477-74CC-4EAD-A507-D0731B8DA86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8CB3D5-3D12-4B5A-A902-2EFF9FD67CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8CB3D5-3D12-4B5A-A902-2EFF9FD67CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8CB3D5-3D12-4B5A-A902-2EFF9FD67CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8CB3D5-3D12-4B5A-A902-2EFF9FD67CC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{E9987D51-0E09-4305-8BF4-0CCC9D66D310} = {F9099BF4-CE87-4E9D-B1E0-2615EE91C2E9}
+		{F4C3C640-632F-429C-AE67-CB842FE344FE} = {F9099BF4-CE87-4E9D-B1E0-2615EE91C2E9}
+		{548F87F3-5A31-42C8-940C-6D7CDAFB6523} = {F9099BF4-CE87-4E9D-B1E0-2615EE91C2E9}
+		{B6C0785A-6276-4C60-8F92-DAC883BD57E0} = {F9099BF4-CE87-4E9D-B1E0-2615EE91C2E9}
+		{814EF39F-D5AC-4704-BB5A-511B474E776F} = {F9099BF4-CE87-4E9D-B1E0-2615EE91C2E9}
 		{EBE53264-D3B7-4E65-A255-2176339B8156} = {814EF39F-D5AC-4704-BB5A-511B474E776F}
 		{894BD2A2-17A9-428F-A081-CE6FD79DA740} = {814EF39F-D5AC-4704-BB5A-511B474E776F}
 		{A54E9B1B-059B-4B1F-8647-F674F6008F4F} = {894BD2A2-17A9-428F-A081-CE6FD79DA740}
@@ -100,6 +127,13 @@ Global
 		{BA82F33A-B4AB-4D2F-A915-9FECE749D36C} = {E9987D51-0E09-4305-8BF4-0CCC9D66D310}
 		{B0575320-8341-4021-882E-9618C2579FFB} = {F4C3C640-632F-429C-AE67-CB842FE344FE}
 		{0AE33477-74CC-4EAD-A507-D0731B8DA86E} = {B6C0785A-6276-4C60-8F92-DAC883BD57E0}
+		{6BD5F154-04F0-48D9-B3E3-067825654715} = {BED78D76-7511-4177-8D8F-EEB6764E4040}
+		{D82AFCCF-E20B-48E3-9C64-C7F9524CDEA6} = {BED78D76-7511-4177-8D8F-EEB6764E4040}
+		{BB61EB60-929F-48E3-BB83-E40FB2004AF9} = {BED78D76-7511-4177-8D8F-EEB6764E4040}
+		{127AF97B-C639-4E34-8078-2990EF6B7CDF} = {BED78D76-7511-4177-8D8F-EEB6764E4040}
+		{82AB905A-7E57-4759-BF5B-6E1580DE2639} = {BED78D76-7511-4177-8D8F-EEB6764E4040}
+		{4182DD5D-458C-41F8-A1BC-2FB05D20D08D} = {82AB905A-7E57-4759-BF5B-6E1580DE2639}
+		{8F8CB3D5-3D12-4B5A-A902-2EFF9FD67CC6} = {127AF97B-C639-4E34-8078-2990EF6B7CDF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A60450B0-804C-4524-90A7-AEB877116841}

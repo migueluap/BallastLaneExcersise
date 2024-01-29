@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -10,18 +11,29 @@
 		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.15" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.15" />
+
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.15" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15" />
+
+
+
 		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.2.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.2.3" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\BallastLane.Application\BallastLane.Application.csproj" />
-		<!--<ProjectReference Include="..\BallastLane.CrossCutting.IoC\BallastLane.CrossCutting.IoC.csproj" />-->
 		<ProjectReference Include="..\BallastLane.Infra.CrossCutting.Bus\BallastLane.Infra.CrossCutting.Bus.csproj" />
 		<ProjectReference Include="..\BallastLane.Infra.CrossCutting.Identity\BallastLane.Infra.CrossCutting.Identity.csproj" />
 		<ProjectReference Include="..\BallastLane.Infra.CrossCutting.IoC\BallastLane.Infra.CrossCutting.IoC.csproj" />
-		<!--<ProjectReference Include="..\BallastLane.Infra.CrossCutting.IoC\BallastLane.Infra.CrossCutting.IoC.csproj" />-->
 	</ItemGroup>
 
 </Project>

@@ -65,7 +65,7 @@ GO
 
 USE [BallastLane]
 GO
-/****** Object:  Table [dbo].[AspNetRoleClaims]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[AspNetRoleClaims]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -77,7 +77,7 @@ CREATE TABLE [dbo].[AspNetRoleClaims](
 	[RoleId] [nvarchar](450) NOT NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[AspNetRoles]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[AspNetRoles]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -89,19 +89,19 @@ CREATE TABLE [dbo].[AspNetRoles](
 	[NormalizedName] [nvarchar](256) NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[AspNetUserClaims]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[AspNetUserClaims]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[AspNetUserClaims](
-	[Id] [int] NOT NULL,
+	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[ClaimType] [nvarchar](max) NULL,
 	[ClaimValue] [nvarchar](max) NULL,
 	[UserId] [nvarchar](450) NOT NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[AspNetUserLogins]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[AspNetUserLogins]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -113,7 +113,7 @@ CREATE TABLE [dbo].[AspNetUserLogins](
 	[UserId] [nvarchar](450) NOT NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[AspNetUserRoles]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[AspNetUserRoles]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -123,7 +123,7 @@ CREATE TABLE [dbo].[AspNetUserRoles](
 	[RoleId] [nvarchar](450) NOT NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[AspNetUsers]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[AspNetUsers]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -146,7 +146,7 @@ CREATE TABLE [dbo].[AspNetUsers](
 	[UserName] [nvarchar](256) NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[AspNetUserTokens]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[AspNetUserTokens]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -158,7 +158,7 @@ CREATE TABLE [dbo].[AspNetUserTokens](
 	[Value] [nvarchar](max) NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Customers]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[Customers]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -174,7 +174,7 @@ CREATE TABLE [dbo].[Customers](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[StoredEvent]    Script Date: 1/27/2024 11:22:19 PM ******/
+/****** Object:  Table [dbo].[StoredEvent]    Script Date: 1/29/2024 11:34:02 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON

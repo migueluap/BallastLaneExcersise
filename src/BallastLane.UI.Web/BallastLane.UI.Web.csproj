@@ -5,4 +5,24 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+		<PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.15" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.15" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BallastLane.Application\BallastLane.Application.csproj" />
+		<ProjectReference Include="..\BallastLane.Infra.CrossCutting.Identity\BallastLane.Infra.CrossCutting.Identity.csproj" />
+		<ProjectReference Include="..\BallastLane.Infra.CrossCutting.IoC\BallastLane.Infra.CrossCutting.IoC.csproj" />
+	</ItemGroup>
+
+
 </Project>

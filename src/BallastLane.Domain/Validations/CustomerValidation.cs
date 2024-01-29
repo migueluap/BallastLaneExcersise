@@ -1,5 +1,4 @@
-﻿using System;
-using BallastLane.Domain.Commands;
+﻿using BallastLane.Domain.Commands;
 using FluentValidation;
 
 namespace BallastLane.Domain.Validations;

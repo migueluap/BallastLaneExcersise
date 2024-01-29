@@ -1,10 +1,10 @@
 <img src="https://avatars.githubusercontent.com/u/445896?v=4" alt="BallastLane Project">
 
-# BallasLane Technical Excercise
+# BallastLane Technical Excercise
 
 The Project is a open-source project written in .NET Core
 
-## User Stories
+## User Stories:
 
 - US1: As an online store owner, I want to Read (view) my customers so that I can review what is currently active on my site
 
@@ -29,7 +29,7 @@ The Project is a open-source project written in .NET Core
     - Create UI for deleting a customer
     - Create automated functional tests for the delete functionality
 
-## Design System
+## Design System:
 
 ## Technologies implemented:
 

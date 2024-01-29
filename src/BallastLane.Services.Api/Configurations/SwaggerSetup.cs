@@ -13,9 +13,8 @@ public static class SwaggerSetup
             s.SwaggerDoc("v1", new OpenApiInfo
             {
                 Version = "v1",
-                Title = "BallastLane Project Exercise",
-                Description = "BallastLane API Swagger",
-                Contact = new OpenApiContact { Name = "Miguel", Email = "migueluap@hotmail.com", Url = new Uri("https://github.com/migueluap") },
+                Title = "BallastLane Project",
+                Description = "BallastLane API Swagger"
             });
 
             s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -56,7 +55,7 @@ public static class SwaggerSetup
         app.UseSwagger();
         app.UseSwaggerUI(c =>
         {
-            c.SwaggerEndpoint("/swagger/v1/swagger.json", "BallastLane Project Exercise");
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "BallastLane Project");
         });
     }
 }

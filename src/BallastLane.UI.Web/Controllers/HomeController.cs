@@ -1,31 +1,43 @@
-﻿using BallastLane.UI.Web.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace BallastLane.UI.Web.Controllers;
 
+[Route("home")]
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
-    {
-        _logger = logger;
-    }
-
+    [Route("welcome")]
+    [Route("")]
+    [Route("/")]
     public IActionResult Index()
     {
         return View();
     }
 
-    public IActionResult Privacy()
+    [Route("about")]
+    public IActionResult About()
+    {
+        ViewData["Message"] = "Your application description page.";
+
+        return View();
+    }
+
+    [Route("contact")]
+    public IActionResult Contact()
+    {
+        ViewData["Message"] = "Your contact page.";
+
+        return View();
+    }
+
+    [Route("error")]
+    public IActionResult Error()
     {
         return View();
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    [Route("access-denied")]
+    public IActionResult AccessDenied()
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View();
     }
 }
