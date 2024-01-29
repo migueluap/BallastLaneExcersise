@@ -23,7 +23,7 @@ public class CustomerTest
     {
         // Arrange
         Guid customerId = Guid.Empty;
-        string name = "John Doe";
+        string name = "Renato Souza";
         string email = "invalid_email"; // Invalid email format
         DateTime birthDate = new DateTime(1990, 1, 1);
 
@@ -37,8 +37,8 @@ public class CustomerTest
     {
         // Arrange
         Guid customerId = Guid.NewGuid();
-        string name = "John Doe";
-        string email = "john.doe@example.com";
+        string name = "Renato Souza";
+        string email = "renato.souza@example.com";
         DateTime birthDate = new DateTime(1990, 1, 1);
 
         // Act

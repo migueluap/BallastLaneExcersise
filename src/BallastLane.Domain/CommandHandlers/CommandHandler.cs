@@ -14,9 +14,18 @@ public class CommandHandler
 
     public CommandHandler(IUnitOfWork uow, IMediatorHandler bus, INotificationHandler<DomainNotification> notifications)
     {
-        _uow = uow;
-        _notifications = (DomainNotificationHandler)notifications;
-        _bus = bus;
+        try
+        {
+            _uow = uow;
+            _notifications = (DomainNotificationHandler)notifications;
+            _bus = bus;
+
+        }
+        catch (Exception e)
+        {
+
+            throw;
+        }
     }
 
     protected void NotifyValidationErrors(Command message)
