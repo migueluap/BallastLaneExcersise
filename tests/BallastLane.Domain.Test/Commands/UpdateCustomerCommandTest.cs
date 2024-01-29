@@ -3,7 +3,7 @@
 namespace BallastLane.Domain.Test.Commands;
 
 [TestClass]
-public class RemoveCustomerCommandTest
+public class UpdateCustomerCommandTest
 {
     [TestMethod]
     [TestCategory("Domain")]
@@ -11,7 +11,11 @@ public class RemoveCustomerCommandTest
     {
         // Arrange
         Guid customerId = Guid.NewGuid();
-        RemoveCustomerCommand command = new RemoveCustomerCommand(customerId);
+        string name = "Renato Souza";
+        string email = "renato.souza@example.com";
+        DateTime birthDate = new DateTime(1990, 1, 1);
+
+        UpdateCustomerCommand command = new UpdateCustomerCommand(customerId, name, email, birthDate);
 
         // Act
         bool isValid = command.IsValid();
@@ -26,7 +30,9 @@ public class RemoveCustomerCommandTest
     public void IsValid_ShouldReturnFalse_WhenCommandIsInvalid()
     {
         // Arrange
-        RemoveCustomerCommand command = new RemoveCustomerCommand(Guid.Empty); // Invalid empty Guid
+        Guid customerId = Guid.NewGuid();
+        string invalidEmail = "invalid_email"; // Invalid email format
+        UpdateCustomerCommand command = new UpdateCustomerCommand(customerId, "Renato Souza", invalidEmail, DateTime.Now);
 
         // Act
         bool isValid = command.IsValid();
